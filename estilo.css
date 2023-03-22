@@ -1,0 +1,72 @@
+
+
+body{
+
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+    height: 100vw;
+    color: white;
+    background-image: url(giphy.gif) ;
+    background-size: 100%;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    
+
+    
+}
+
+div.cronometro {
+
+    margin: 70px;
+    padding: 80px;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(160, 95, 107, 0.445);
+    border-radius: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.14) 2px 2px ;
+ 
+}
+
+#button-start {
+    background-color: rgb(236, 146, 181);
+    border-radius: 10px;
+    border-width: 2px ;
+    border-color: rgba(224, 137, 215, 0.447);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button-stop{
+
+    background-color: rgb(240, 238, 110);
+    border-radius: 10px;
+    border-width: 2px ;
+    border-color: rgba(253, 243, 109, 0.456);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+#button-reset{
+
+    background-color: rgb(101, 222, 231);
+    border-radius: 10px; 
+    border-width: 2px ;
+    border-color: rgb(120, 212, 225);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+footer h3, a{
+
+text-align: center;
+text-decoration: none;
+color: white;
+font-family: 'Major Mono Display', monospace;
+margin-top: 90px;
+
+}
+h1, p{
+    font-family: 'Major Mono Display', monospace;
+}
+
